@@ -1,14 +1,32 @@
 {
-    "name": "bootstrap4",
-    "version": "0.0.2",
-    "description": "Assets for my Bootstrap 4: Essential Training Course",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/planetoftheweb/bootstrap4.git"
-    },
-    "author": "Ray Villalobos",
-    "devDependencies": {
-        "gulp": "^4.0.2",
-        "gulp-webserver": "^0.9.1"
-    }
+  "name": "planet-of-the-web-bootstrap4",
+  "version": "1.0.3",
+  "description": "Assets for my Bootstrap 4: Essential Training Course",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/planetoftheweb/bootstrap4.git"
+  },
+  "author": "Ray Villalobos",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-webserver": "^0.9.1",
+    "node-sass": "^5.0.0",
+    "sass": "^1.29.0"
+  },
+  "bugs": {
+    "url": "https://github.com/planetoftheweb/bootstrap4/issues"
+  },
+  "homepage": "https://github.com/planetoftheweb/bootstrap4#readme",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Bootstrap4",
+    "Gulp4"
+  ],
+  "license": "MIT"
 }
